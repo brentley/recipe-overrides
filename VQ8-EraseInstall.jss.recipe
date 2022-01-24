@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-EraseInstall</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>EraseInstall</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Deployment</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string></string>
+		<key>download_url</key>
+		<string>https://bitbucket.org/prowarehouse-nl/erase-install/downloads</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.scriptingosx.jss.EraseInstall</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.scriptingosx.download.EraseInstall</key>
+			<dict>
+				<key>git_hash</key>
+				<string>755a51aadcf159a9c6665649d66a3f2f528cac74</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/ProWarehouse/EraseInstall.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3a75318ad42f80a96b4dd6a794fa8d0d44bec314510226fdd6733df727619b9c</string>
+			</dict>
+			<key>com.scriptingosx.jss.EraseInstall</key>
+			<dict>
+				<key>git_hash</key>
+				<string>df21eb0705c51c6eb22206e72813fb0150d26937</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/ProWarehouse/EraseInstall.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b9bf0bc2637f7b45ca241425d05f9b555128e0e66a52a7ee878763640ad8008d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

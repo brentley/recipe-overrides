@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-MicrosoftExcel365</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Apps</string>
+		<key>DESCRIPTION</key>
+		<string>Microsoft Excel is a spreadsheet application featuring calculation, graphing tools, PivotTables, and a macro programming language called Visual Basic for Applications.</string>
+		<key>DOWNLOADURL</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
+		<key>GROUP_NAME</key>
+		<string>Update-Smart-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/MicrosoftExcel365.png</string>
+		<key>NAME</key>
+		<string>Microsoft Excel</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>PRODUCTID</key>
+		<string>525135</string>
+		<key>SOFTWARETITLE</key>
+		<string>Excel</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+		<key>VERSIONTYPE</key>
+		<string>CFBundleVersion</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.microsoftexcel365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.microsoftexcel365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftExcel365/MicrosoftExcel365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0cce58fb09aed964c58e59288abbb5c0bb9d5e14702dc1c6cf1c0d08a51be31e</string>
+			</dict>
+			<key>com.github.rtrouton.jss.microsoftexcel365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/MicrosoftExcel365.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5849123a0b6b3e41e8979491c50d63d155d3ece49abeb89e22295b6d057eb8ef</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftexcel365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftExcel365/MicrosoftExcel365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>9cd120e9ed4b49a37a89df1b2209ba8851db38ea0614168e6ac30094767af8f2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

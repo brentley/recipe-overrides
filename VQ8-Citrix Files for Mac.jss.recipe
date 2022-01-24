@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Citrix Files for Mac</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Citrix Files for Mac</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Productivity</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Citrix Files for Mac allows users with a ShareFile license to interact with all their files directly from the Finder. Files do not need to be synced locally. Quick access to sharing, requesting, and other file options are available through the right click menu.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>CitrixFiles.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.jss.Citrix Files for Mac</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.Citrix Files for Mac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a78ad44b667c7e9a6d3ace85228d924cea589ab6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Citrix Files for Mac/Citrix Files for Mac.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>aa46b1a615af59a6473d5494f9ad04f7d8dcd0d36fb5565c5e74378b2731e24e</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.jss.Citrix Files for Mac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7c597df3fc9a0777b2184b8b84be0ffbb7f4d1b8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Citrix Files for Mac/Citrix Files for Mac.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>1798a70222fba6056d4c4fdfa7a7b13a7df60b70b7b6afb0c3f50c393dbd0bdf</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.Citrix Files for Mac</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a78ad44b667c7e9a6d3ace85228d924cea589ab6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Citrix Files for Mac/Citrix Files for Mac.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c0a970d451507b8e48e0f99410a70f4513b6cbab291fbdceac437a03bfb047bc</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

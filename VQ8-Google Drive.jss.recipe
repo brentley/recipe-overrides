@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Google Drive</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utility</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/drive-file-stream/GoogleDrive.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Google Drive</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Productivity</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with Google Drive.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Google Drive.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.GoogleDrive</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7ee3347b9c6915eb68d383d2f3fe51acacbe0174</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Google Drive/Google Drive.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>23966117f9d3c0f1e2fed3ebf38bf54a2f502387d283b77b635dc2a0b9182673</string>
+			</dict>
+			<key>com.github.nstrauss.download.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>db7b2e9da1d960773a91e9c3836c76b83303631d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/Google Drive/GoogleDrive.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cc60f2e011e34913a6e884ee8b153e95eec8fd4f517e83849606204fbed561d1</string>
+			</dict>
+			<key>com.github.nstrauss.pkg.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5c7b0dbf706e8b7a9ba837f4c02c8dbc623fc362</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/Google Drive/GoogleDrive.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d777f14079f285ccdd06693de37f6aadc6fcbac5309a8d4e6299fabe82613035</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

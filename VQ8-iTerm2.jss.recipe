@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-iTerm2</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Computer Science</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>iTerm.app</string>
+		<key>NAME</key>
+		<string>iTerm2</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utility</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>RELEASE</key>
+		<string>final</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>iTerm2 is a replacement for Terminal.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>iTerm2.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.iTerm2</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c75cbeae320226cd4b7b181402e055aeb8a08df9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/iTerm2/iTerm2.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>dc8fee7d82a66a7a45abfe89e7657b779a26d85ba6bf77f4bf1298267fc83593</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2144a7f81149788fa2f26e1460579d44a2f88cc6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/iTerm2/iTerm2.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e4b6f5ddfded53426a8866832ce4241543030db66f95aa91ea0419c1aa14820d</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0932908b391cabfd8d440c3a455e0ad0e63a706b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/iTerm2/iTerm2.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>478cd9ae05f4149b01b2186faf8b13038b680564391a3072087f0df0a10c649b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

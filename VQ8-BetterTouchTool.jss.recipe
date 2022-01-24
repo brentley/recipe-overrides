@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-BetterTouchTool</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.hegenberg.BetterTouchTool</string>
+		<key>CATEGORY</key>
+		<string>Utility</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>BetterTouchTool</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utility</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>BetterTouchTool is a great, feature packed app that allows you to customize various input devices on your Mac.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>BetterTouchTool.png</string>
+		<key>STOPPROCESSINGIF_PREDICATE</key>
+		<string>download_changed == False</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.crystalllized.jss.BetterTouchTool</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.crystalllized.jss.BetterTouchTool</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a7b2e084a3a245ad0b6e4476e4acca55980017e7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.crystalllized-recipes/BetterTouchTool/BetterTouchTool.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>cceff9dab97158ae9075c855bb97270a7993d67e9b3ace73702ccb23d44c774e</string>
+			</dict>
+			<key>com.github.homebysix.download.BetterTouchTool</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a80773e58dbdd6c3de0d0f3bd129c73d7ece08fa</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/BetterTouchTool/BetterTouchTool.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>86707cfbd118f324135b6311e12000ad8a487dc5dec98f3db3365ae3b62abc4d</string>
+			</dict>
+			<key>com.github.homebysix.pkg.BetterTouchTool</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a011dfd74579a361268b4c6d5cd07e7e9166b9c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/BetterTouchTool/BetterTouchTool.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>15d546d560754776d2f0178e4a795454f6cd941864a3dde6d2615a51fe589ca0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

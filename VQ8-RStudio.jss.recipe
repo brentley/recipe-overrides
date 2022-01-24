@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-RStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Development</string>
+		<key>DESCRIPTION</key>
+		<string>RStudio IDE is a powerful and productive user interface for R.</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/RStudio.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>RStudio.app</string>
+		<key>NAME</key>
+		<string>RStudio</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.RStudio</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dc086969ec741e70edcf24774d50fba627732496</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>121f98262a70e62f58e81f16de00f69785b5aed765ed43961319759757e2d55c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d2b808db9065ca5b6ad462cd75b829445ef32308</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2c348f0cbdfb094276a1fca385c6c6c24645cf4f3a1af38a2976c6b8b366e0c3</string>
+			</dict>
+			<key>com.github.rtrouton.jss.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/RStudio.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>ed0d2118fd1cf06baeda7be4a928300946a9809f704fd3cc2855f13d34628cd8</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>84614d29fe664a6afeb95030d8bbbeecb3addca9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e44b033db1916ad44596e4332f560c0a99e32e2c6326b9ca24bcb65deb3331c6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

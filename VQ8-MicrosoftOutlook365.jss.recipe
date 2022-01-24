@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-MicrosoftOutlook365</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Apps</string>
+		<key>DESCRIPTION</key>
+		<string>Microsoft Outlook is a comprehensive personal information manager. Although often used as an email app, it also includes a calendar, task manager, contact manager, and many other features.</string>
+		<key>DOWNLOADURL</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
+		<key>GROUP_NAME</key>
+		<string>Update-Smart-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/MicrosoftOutlook365.png</string>
+		<key>NAME</key>
+		<string>Microsoft Outlook</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>PRODUCTID</key>
+		<string>525137</string>
+		<key>SOFTWARETITLE</key>
+		<string>Outlook</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+		<key>VERSIONTYPE</key>
+		<string>CFBundleVersion</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.microsoftoutlook365</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.microsoftoutlook365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOutlook365/MicrosoftOutlook365.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>49e6bee5ce8bd6216d6141d33952dff41d3e5e87abcc774ceb6f60ae0e91262f</string>
+			</dict>
+			<key>com.github.rtrouton.jss.microsoftoutlook365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8a29db2944790f4a29cc98618e0d2e87c96668d5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/MicrosoftOutlook365.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f28ed529b229e0b92a01b69a3bd52fe0ff2d4faf1f3a2c82f11c3386992c82a8</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftoutlook365</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOutlook365/MicrosoftOutlook365.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>233cd65259702f53ed01c8d0471d2ebac34812e8704cbc6c9e81b542241416b2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

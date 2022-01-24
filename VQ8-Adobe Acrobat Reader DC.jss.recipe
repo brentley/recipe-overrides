@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Adobe Acrobat Reader DC</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>LANGUAGE</key>
+		<string>English</string>
+		<key>MAJOR_VERSION</key>
+		<string>AcrobatDC</string>
+		<key>NAME</key>
+		<string>Adobe Acrobat Reader DC</string>
+		<key>OS_VERSION</key>
+		<string>10.15.0</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Productivity</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Views, prints, and comments on PDF documents, and connects to Adobe Document Cloud.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Adobe Acrobat Reader DC.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.AdobeReaderDC</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeReaderRepackager</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8574c91661dc067f31a486239fd8f5685c6f4fa0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderRepackager.py</string>
+				<key>sha256_hash</key>
+				<string>fab6459d34583611c270e839899c10df05c5640a96678e261f9714a75f5fc486</string>
+			</dict>
+			<key>AdobeReaderURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e59fe2695de28cbacc77d8ec23f68fee24e1b135</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>647d2b53c5950cc94c30cfa9a3c4061e5663661193fb117125a6edcec7796e7c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.AdobeReaderDC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cd4c7a76dc2040ecc1a7c08c4a56ba849f71cfb7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderDC.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5d540d866069d66e67ef11a825f9feaff8500e6c45aa520393e542ab546e3843</string>
+			</dict>
+			<key>com.github.autopkg.pkg.AdobeReaderDC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ea8a647021abf3aa5687f3cf3c1f018c50f4bcc9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeReader/AdobeReaderDC.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>cd442efb2ae977cd7ca62b7b0f4393f17136a7356fcde1583ba168267cfa749c</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.AdobeReaderDC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>89f547d086296490620895e482d212279d1775b5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>55e8382bc972eaaf8fa1c3b6265e46a907563e58d1a25568653fadbe303b95d4</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

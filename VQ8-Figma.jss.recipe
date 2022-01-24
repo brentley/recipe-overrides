@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Figma</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>Figma-SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Figma</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Design, prototype, and gather feedback all in one place with Figma.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Figma.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.jss.Figma</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.Figma</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5866cb45a6aef934cc757126b62cfc3059d2ee1c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Figma/Figma.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cb7347a51f804dc67037de9cb19cd4ac0a567e81fceaec356c6a63bf567d98fd</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.jss.Figma</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b937b178d96cd579cd0d5ee731c601c5154b37c8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Figma/Figma.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b94ca57a37dc242d9cd1f19f9e3d14da30bb1cd5e1db7e209c47a1abf50357cf</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.Figma</key>
+			<dict>
+				<key>git_hash</key>
+				<string>823dcf52df14106846b85e7547aed29c21d321b1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Figma/Figma.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>2f9614c5d7de915973ac8c19ce315953c2fb1570175afb4ce43de2d942d35876</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

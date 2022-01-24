@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Alfred4</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Alfred 4</string>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>MAJOR_VERSION</key>
+		<string>4</string>
+		<key>NAME</key>
+		<string>Alfred</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utility</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>RELEASE_TYPE</key>
+		<string>stable</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.d33t5.jss.Alfred</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AlfredURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e25f33ac0fb7b7113642afa9a33df6332774d7ec</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/AlfredURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>a1a07304f0bb796bb7c0180a2c6e430aa1c4dee0617a3965265a8b7abe18a5cf</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.d33t5.jss.Alfred</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4d96464ad972ae3caaac86485b670e25f51c59ef</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.d33t5-recipes/Alfred App/Alfred4.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>6b2300ccc81bf4db03c3c7d1c128840f3b81a5c0cf67f3f57d26af3b30a7a372</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.Alfred4</key>
+			<dict>
+				<key>git_hash</key>
+				<string>738e2817d8857b826c18800897b30d82eb9a113c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/Alfred4.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c9bb5b4198badd30bae7e379ab97e28176fe33cf3d5771ef3fa4befc6b56ba4a</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Alfred4</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2bbf3031013cc16a4f7239840acac5df6da77d7e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/Alfred4.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c981bc63c226c9bd99856d218998a9775f02ca1653746c5d6eca263b7a319d4f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

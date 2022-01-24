@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-MySQLWorkBench</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Computer Science</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>MySQLWorkBench</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>MySQLWorkBench.png</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.MySQLWorkBench</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.MySQLWorkbench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d484cf88663e2441514a851e5b9432193222a220</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/MySQLWorkbench/MySQLWorkbench.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e12044c9660103898201ffa463e3a061aad17a9f4024aa878b1af9620b43c11b</string>
+			</dict>
+			<key>com.github.homebysix.pkg.MySQLWorkbench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>43c0fb6803d6a9ba0d665294c707c8a59922ea02</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/MySQLWorkbench/MySQLWorkbench.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f59d8844f461c33bfa7c1ebdcf5e6d67ae20687bfa95956f2304dfc3dd361449</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.MySQLWorkBench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d6ab5640e5a29ce73845c69241843619288c8ed</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/MySQLWorkBench/MySQLWorkBench.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>3206ca01d7aa3f0a803830c7efddcdf7551a199d5300ea0c04629b3c7cb2ed37</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

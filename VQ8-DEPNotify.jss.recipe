@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-DEPNotify</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_INFO_PLIST</key>
+		<string>Applications/Utilities/%NAME%.app/Contents/Info.plist</string>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>DEPNotify</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utility</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>DEPNotify is a small light weight notification app that was designed to let your users know what's going on during a DEP enrollment.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.DEPNotify</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.DEPNotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4a8ea99e9f44ccfcfcf7ef9dcfd45dd21759ec55</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/DEPNotify/DEPNotify.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>bc6e562a66cd2fd4d7f7f7e7050ed098ae5342a2390f1d6f3c177ebf20f481fd</string>
+			</dict>
+			<key>com.rderewianko.download.DEPNotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>210eee5330a8148c7057dc50598575c6ca95187c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes/DEPNotify/DEPNotify.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>bb15f4ce9240c713084ca9addc4a27d875517116fe1993901251a28415272c36</string>
+			</dict>
+			<key>com.rderewianko.pkg.DEPNotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7048f0d22f72aea12771877ae09d72ec0cec9253</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes/DEPNotify/DEPNotify.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f80045fad11103bbce839e23bc78eaa59261c27779b1c0dc6d6030484fc6e0ca</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

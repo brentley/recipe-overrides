@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-AdobeCreativeCloudInstallerUniversal</string>
+	<key>Input</key>
+	<dict>
+		<key>APPLE_SILICON_ARCHITECTURE</key>
+		<string>macarm64</string>
+		<key>APPLE_SILICON_SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;http.*?://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/.*?/%APPLE_SILICON_ARCHITECTURE%/ACCC.*?.dmg)</string>
+		<key>CATEGORY</key>
+		<string>Adobe</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>INTEL_ARCHITECTURE</key>
+		<string>osx10</string>
+		<key>INTEL_SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;http.*?://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/.*?/%INTEL_ARCHITECTURE%/ACCC.*?.dmg)</string>
+		<key>NAME</key>
+		<string>Creative Cloud Installer</string>
+		<key>NAMEWITHOUTSPACES</key>
+		<string>CreativeCloudInstaller</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SEARCH_URL</key>
+		<string>https://helpx.adobe.com/download-install/kb/creative-cloud-desktop-app-download.html</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Access Adobe apps from the cloud with a monthly fee.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>AdobeCreativeCloudInstallerUniversal.png</string>
+		<key>SOFTWARETITLE</key>
+		<string>Creative Cloud Installer</string>
+		<key>VENDOR</key>
+		<string>Adobe</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.AdobeCreativeCloudInstallerUniversal</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>XMLReader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>de38b58e8e38a5c0fc62be8621d4b352a77b5a54</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/AdobeCreativeCloud/XMLReader.py</string>
+				<key>sha256_hash</key>
+				<string>c05bd3ad80326eac11cba84abef7b69ab185d35b2091c5dffac4cf7baadb8b6c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.AdobeCreativeCloudInstallerUniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5cfdcb2885ab4fa39f162a6558800736a8b5e87d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/AdobeCreativeCloud/AdobeCreativeCloudInstallerUniversal.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>57a98d792855d9fd0a1abc63464cdc8d9ceb999fb038edbbc62604be19b80ccc</string>
+			</dict>
+			<key>com.github.rtrouton.jss.AdobeCreativeCloudInstallerUniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bf93d21108b65158b33b939d36f2cf1f3e4c1476</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/AdobeCreativeCloudInstallerUniversal.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>9fb7b289a1eeac57b8a04f37968a5630fefc4bf85c28c085265b93964164bf96</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.AdobeCreativeCloudInstallerUniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5cfdcb2885ab4fa39f162a6558800736a8b5e87d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/AdobeCreativeCloud/AdobeCreativeCloudInstallerUniversal.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d049dbc63d2990a5291d38ae702d32e8cb182fbd7e9d1d38c609424a339e73a9</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

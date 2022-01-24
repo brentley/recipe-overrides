@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-ScreenFlow</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>net.telestream.screenflow5</string>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>ScreenFlow</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Create screen recordings.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://www.telestream.net/updater/screenflow/appcast.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.ScreenFlow</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.ScreenFlow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>86efef6649eb24ce13860a891cd3fe540e09b1fc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/ScreenFlow/ScreenFlow.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5b04c834eb991762c27aefd23bcb2f1f7cf3bb2b24a664ecce6f844993e3a592</string>
+			</dict>
+			<key>com.rderewianko.download.ScreenFlow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>31a5f163d2cadd66edd7247a2f3c10e44b283342</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes/ScreenFlow/ScreenFlow.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>faa49bed6d553dc2a4158c7be7c78ba0e5bf585142f6007259d3bc96bd07424f</string>
+			</dict>
+			<key>com.rderewianko.pkg.ScreenFlow</key>
+			<dict>
+				<key>git_hash</key>
+				<string>31a5f163d2cadd66edd7247a2f3c10e44b283342</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes/ScreenFlow/ScreenFlow.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>7a3046c8c12fa91b2844e3b20c873946919f8ba24777498a4cd6f7705adb728b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
