@@ -14,6 +14,8 @@
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>MySQLWorkBench</string>
+                <key>OS_REQUIREMENTS</key>
+                <string></string>
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>

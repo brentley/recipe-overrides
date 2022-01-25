@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Brave-Apple-Silicon</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Brave Browser - Apple Silicon</string>
+		<key>CATEGORY</key>
+		<string>Internet</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>CFBundleVersionSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Brave-Apple-Silicon</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Internet</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Secure, Open-Source browser.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Brave</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.brentley.download.Brave</key>
+			<dict>
+				<key>git_hash</key>
+				<string>44aa76c65c6f22e53dcc98a178d0115f96df1578</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Brave-Apple-Silicon/Brave-Apple-Silicon.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>80f2971d86399a1a10746242a0840149749ce8793a0cc41ae946ea49f896ca16</string>
+			</dict>
+			<key>com.github.brentley.pkg.Brave</key>
+			<dict>
+				<key>git_hash</key>
+				<string>44aa76c65c6f22e53dcc98a178d0115f96df1578</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Brave-Apple-Silicon/Brave-Apple-Silicon.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>43c1f3eabd952791ce7af92cf862d308e75ad61fa24c1ccbb9cdb63d5261bfc4</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Brave</key>
+			<dict>
+				<key>git_hash</key>
+				<string>44aa76c65c6f22e53dcc98a178d0115f96df1578</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Brave-Apple-Silicon/Brave-Apple-Silicon.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>57b17d2652c67e664d9e05d4247cb60a36910e1b6403f68d177af211f982ebb2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

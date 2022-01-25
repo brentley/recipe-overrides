@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Sublime Text</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>CFBundleVersionSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Sublime Text</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Sophisticated text editor for code, markup, and prose.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.SublimeText</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.brentley.download.SublimeText</key>
+			<dict>
+				<key>git_hash</key>
+				<string>67b6b22ef1fe190fd9bdd6d96e86c27646bf8228</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Sublime Text/Sublime Text.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3e44f6f2103be9a9155d3066248527a4f9b5574f441f1407cf4029c8aa4c5f0c</string>
+			</dict>
+			<key>com.github.brentley.pkg.SublimeText</key>
+			<dict>
+				<key>git_hash</key>
+				<string>67b6b22ef1fe190fd9bdd6d96e86c27646bf8228</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Sublime Text/Sublime Text.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f674184f9d83ac40ec1108a435047867e72ecf3ebcb9e5d67d80cafce27d3042</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.SublimeText</key>
+			<dict>
+				<key>git_hash</key>
+				<string>67b6b22ef1fe190fd9bdd6d96e86c27646bf8228</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Sublime Text/Sublime Text.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>366b8f8d366a4a74e43f20c1eee50255690fac1cc7766568b2ea3a0da58299b5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
