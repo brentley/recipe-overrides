@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Nudge</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Nudge</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>A tool for encouraging the installation of macOS security updates.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Nudge</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.brentley.download.Nudge</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d457f34cfe9222f0aa33755fdc7f033966a66d87</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Nudge/Nudge.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>91018e1c60da103e112a7a9ee190a9e9ecbd8db0b5e08a86d56f84b8d9b149cf</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Nudge</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ae674324f620b6a31c75bf585dbbdb35647d1ad9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.brentley.AutoPkg-Recipes/Nudge/Nudge.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c939c21ffd9f1103f5f1b4c531aa5c702ec5bd815237f1ed9445a9c37d4a5b49</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

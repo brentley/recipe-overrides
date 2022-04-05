@@ -19,7 +19,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>RE_PATTERN</key>
-		<string>&lt;a href=\"(?P&lt;url&gt;http[s]?.*?(?P&lt;filename&gt;FileZilla_(?P&lt;version&gt;[\d.]+)_macosx.*?\.app\.tar\.bz2).*?)\"</string>
+		<string>&lt;a href=\"(?P&lt;url&gt;http[s]?.*?(?P&lt;filename&gt;FileZilla_(?P&lt;version&gt;[\d.]+)_macosx.*?\.tar\.bz2).*?)\"</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>FileZilla is a fast and reliable cross-platform FTP, FTPS and SFTP client.</string>
 		<key>SELF_SERVICE_ICON</key>
@@ -36,11 +36,11 @@
 			<key>com.github.keeleysam.recipes.FileZilla.download</key>
 			<dict>
 				<key>git_hash</key>
-				<string>27a320db44f81acf00b275df5d7af8cbffbb8e44</string>
+				<string>fc5f230871a0d7d6cfc414990eafb1ed0be81132</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/FileZilla/FileZilla.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>4a6cf08ec60fe45370e53a14186bbe82ecf9f9168f093ef86f65e9a8cff3d207</string>
+				<string>dd4fd644b7efe589d64e77d572f561b467193f0578dbd65dcba11142c978fe31</string>
 			</dict>
 			<key>com.github.scriptingosx.jss.FileZilla</key>
 			<dict>

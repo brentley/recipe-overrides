@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Signal</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Signal</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string></string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Signal</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.brentley.download.Signal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<key>path</key>
+				<string>~/git/VQ8-Recipes/Signal/Signal.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>73e78c2db4e465fc3d6ced5275ad84bea976ae4740235b694d325cc0c656cac4</string>
+			</dict>
+			<key>com.github.brentley.pkg.Signal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<key>path</key>
+				<string>~/git/VQ8-Recipes/Signal/Signal.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>1fae24ecbb0a08010d073d469c25e73ba560547e68132401139806891909e244</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Signal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<key>path</key>
+				<string>~/git/VQ8-Recipes/Signal/Signal.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>dca34650fdbcb8ca4332842c9c70aac66698bad3ca614fca959ec1a7ceab7f93</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

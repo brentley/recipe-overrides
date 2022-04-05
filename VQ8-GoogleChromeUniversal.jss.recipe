@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-GoogleChromeUniversal</string>
+	<key>Input</key>
+	<dict>
+		<key>BUILD</key>
+		<string>Universal</string>
+		<key>Build</key>
+		<string>Universal</string>
+		<key>CATEGORY</key>
+		<string>Google</string>
+		<key>DESCRIPTION</key>
+		<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg</string>
+		<key>GROUPNAME</key>
+		<string>GoogleChrome</string>
+		<key>GROUP_NAME</key>
+		<string>%GROUPNAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/GoogleChromeUniversal.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Google Chrome.app</string>
+		<key>NAME</key>
+		<string>Google Chrome</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.googlechromeuniversal</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.googlechromeuniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8614d3184930bcebc9a8168b055d0e5d7212435b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/GoogleChromeUniversal/GoogleChromeUniversal.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1cf357360a2561f2a497a4b25ca95061894183900206972e6f93a9ca0e28f50c</string>
+			</dict>
+			<key>com.github.rtrouton.jss.googlechromeuniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cbd494a7374691369e2918a90c96a8d4d3f01950</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/GoogleChromeUniversal.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>e8669d9d1af5b3438b079dc44a9af209e33131ec87d2d03db99a18cc0f2d7e14</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.googlechromeuniversal</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f4b96cd1e9b5318e2952c979423ad7806f932606</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/GoogleChromeUniversal/GoogleChromeUniversal.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>bf8e9dda4b8f1d49769db7d4cec35608c2dcce935f721a086ae4cd133bdfefc1</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

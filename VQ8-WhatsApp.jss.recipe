@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-WhatsApp</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>WhatsApp</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>WhatsApp Messenger is a cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS. WhatsApp Messenger is available for iPhone, BlackBerry, Android, Windows Phone and Nokia and yes, those phones can all message each other! Because WhatsApp Messenger uses the same internet data plan that you use for email and web browsing, there is no cost to message and stay in touch with your friends.
+In addition to basic messaging WhatsApp users can create groups, send each other unlimited images, video and audio media messages.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.scriptingosx.jss.WhatsApp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.scriptingosx.download.WhatsApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>80c6f197d605042a8b2bd30ef956962bf6a5881a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/WhatsAppInc/WhatsApp.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>22ad2cabfca65f9875f592836dc452685964ca54879bcbc46d147d8cf6b6d9bd</string>
+			</dict>
+			<key>com.scriptingosx.jss.WhatsApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3718c42e48db3a825324e1c377c71c75a7dcbce9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/WhatsAppInc/WhatsApp.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>777526f5393a65f72bc3b50c214a72494ea86cceca3c0bd1e58032e7f30db5f7</string>
+			</dict>
+			<key>com.scriptingosx.pkg.WhatsApp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>80c6f197d605042a8b2bd30ef956962bf6a5881a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes/WhatsAppInc/WhatsApp.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>2076be8000574fadeffe3d13571765c510a08883c4608c2d3e281165b6717745</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

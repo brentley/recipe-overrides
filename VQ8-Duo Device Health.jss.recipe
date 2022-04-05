@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VQ8-Duo Device Health</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utility</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Duo Device Health</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utility</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Duo helps you control access to your applications through the policy system by restricting access when devices do not meet particular security requirements.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Duo Device Health.png</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://dl.duosecurity.com/DuoDeviceHealth-appcast-v2-macos-latest.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.DuoDeviceHealth</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.DuoDeviceHealth</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bd0de73c2947c62896062b9772cba891f955e2d3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Duo Device Health/Duo Device Health.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>4be1e13158a34788ae087667f9f91d2eb3d4c74805cdf7b790e7b4a4382bfde9</string>
+			</dict>
+			<key>com.keeleysam.recipes.download.DuoDeviceHealth</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3547bac8f583aa0a20ccf393358e695559515336</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Duo/Duo Device Health.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>ffa40d2426cd0aa34c36a493e1b973f95f42f66591f6b4d1d444d7bce805297f</string>
+			</dict>
+			<key>com.keeleysam.recipes.pkg.DuoDeviceHealth</key>
+			<dict>
+				<key>git_hash</key>
+				<string>34472232b4454bcea0fc0c17299da13ba2b7775b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/Duo/Duo Device Health.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>03ca174640021f377478d332a19ab8247b10fdeb5b475688c14dc5fa0e4d7782</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

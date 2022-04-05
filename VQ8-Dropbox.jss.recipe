@@ -7,24 +7,26 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Utility</string>
+		<string>Dropbox</string>
+		<key>DESCRIPTION</key>
+		<string>Dropbox is an application that creates a special Finder folder that automatically syncs online and between your computers. It allows you to both store files on Dropbox's servers and keep them up-to-date between systems.</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Dropbox.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Dropbox.app</string>
 		<key>NAME</key>
 		<string>Dropbox</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Productivity</string>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>Dropbox.png</string>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jss-recipes.jss.Dropbox</string>
+	<string>com.github.rtrouton.jss.dropbox</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
@@ -49,14 +51,14 @@
 				<key>sha256_hash</key>
 				<string>f570fdd068af64f965fe4dc41681ccf72cf1a6501f0084e1e50c21ada45e85c0</string>
 			</dict>
-			<key>com.github.jss-recipes.jss.Dropbox</key>
+			<key>com.github.rtrouton.jss.dropbox</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Dropbox/Dropbox.jss.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/Dropbox.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>6c9b91bb21522d51a1bc2c08567a026cecd533b6632251291915724c8e92f682</string>
+				<string>4fe12759a387f4662bca3452f51cfee6d4708f52bb3b81e0fb282a9c4bbe6300</string>
 			</dict>
 		</dict>
 	</dict>
