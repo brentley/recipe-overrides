@@ -66,11 +66,11 @@
 			<key>com.github.jss-recipes.jss.Docker</key>
 			<dict>
 				<key>git_hash</key>
-				<string>0ed7bb694310c0ab46a6225bae07ca5b2df8f1cc</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Docker/Docker.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>5737bf13933d43bd84f865cb4b484c8a69d4ef7cdb02f94316f9ad3683a0ee21</string>
+				<string>467edab7bad25922158ab92746a6f18754f18c783e58e879e02f3caecf85324a</string>
 			</dict>
 		</dict>
 	</dict>

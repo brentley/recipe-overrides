@@ -42,11 +42,11 @@
 			<key>com.github.jss-recipes.jss.iTerm2</key>
 			<dict>
 				<key>git_hash</key>
-				<string>c75cbeae320226cd4b7b181402e055aeb8a08df9</string>
+				<string>46b6e7c6c15b35df66202467abf1fbbe6a883210</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/iTerm2/iTerm2.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>dc8fee7d82a66a7a45abfe89e7657b779a26d85ba6bf77f4bf1298267fc83593</string>
+				<string>2d2660eb275f7703bc6b3e954e66f4bfc64d150017ef9c1e59b2d1c45501892e</string>
 			</dict>
 			<key>io.github.hjuutilainen.download.iTerm2</key>
 			<dict>

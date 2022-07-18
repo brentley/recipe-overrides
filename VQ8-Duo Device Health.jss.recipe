@@ -36,11 +36,11 @@
 			<key>com.github.jss-recipes.jss.DuoDeviceHealth</key>
 			<dict>
 				<key>git_hash</key>
-				<string>bd0de73c2947c62896062b9772cba891f955e2d3</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Duo Device Health/Duo Device Health.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>4be1e13158a34788ae087667f9f91d2eb3d4c74805cdf7b790e7b4a4382bfde9</string>
+				<string>6f6f942cf47bd88adacc845253898a41b004b91dadf36355581e077a4337ac4d</string>
 			</dict>
 			<key>com.keeleysam.recipes.download.DuoDeviceHealth</key>
 			<dict>

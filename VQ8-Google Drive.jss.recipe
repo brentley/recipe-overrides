@@ -36,11 +36,11 @@
 			<key>com.github.jss-recipes.jss.GoogleDrive</key>
 			<dict>
 				<key>git_hash</key>
-				<string>7ee3347b9c6915eb68d383d2f3fe51acacbe0174</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Google Drive/Google Drive.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>23966117f9d3c0f1e2fed3ebf38bf54a2f502387d283b77b635dc2a0b9182673</string>
+				<string>85897603b49de4a5ee963322cd04c0390bebe0ba78fe45c5416ca457e33b3c70</string>
 			</dict>
 			<key>com.github.nstrauss.download.GoogleDrive</key>
 			<dict>

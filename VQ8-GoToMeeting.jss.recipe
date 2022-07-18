@@ -32,11 +32,11 @@
 			<key>GoToMeetingURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>5086ac17f8ae657b405c440f916427311c10397e</string>
+				<string>bc8e713ab5c5f18306281d331c901e0a46f06fad</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeetingURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>f86f2a4749091a95bd33b57ea0ba36546ad8e9c44d498ea397a75853d9d67e88</string>
+				<string>8d5dcbbfef5c7c0fea1bd4fbc3a5c3b67116dad33f85fe3079256a61937fb704</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -62,11 +62,11 @@
 			<key>com.github.jss-recipes.jss.GoToMeeting</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/GoToMeeting/GoToMeeting.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>699b8618f051b543e54e4bc95bbfc9085e98bb65e907602ae82de0c0254d8f54</string>
+				<string>5e410d919683fffbfa59be7b7117155e89586d4bf93c3c7953d3521743cf2bc5</string>
 			</dict>
 		</dict>
 	</dict>

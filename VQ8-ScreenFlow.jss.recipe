@@ -38,11 +38,11 @@
 			<key>com.github.jss-recipes.jss.ScreenFlow</key>
 			<dict>
 				<key>git_hash</key>
-				<string>86efef6649eb24ce13860a891cd3fe540e09b1fc</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/ScreenFlow/ScreenFlow.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>5b04c834eb991762c27aefd23bcb2f1f7cf3bb2b24a664ecce6f844993e3a592</string>
+				<string>41febceb8faf451c6695d77ed5089a5a1815fdc182706131fddb6b30c63a5421</string>
 			</dict>
 			<key>com.rderewianko.download.ScreenFlow</key>
 			<dict>

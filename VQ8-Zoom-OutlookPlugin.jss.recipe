@@ -49,20 +49,20 @@
 			<key>com.github.mlbz521.jss.Zoom-OutlookPlugin</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2df97421a31899660482e2e8f0c3d4c3d68c11f2</string>
+				<string>12c53b0a52801f44780287cd6b2c6ec9f152a86c</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MLBZ521-recipes/Zoom/Zoom-OutlookPlugin.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>01ce2b34a754ce94bbc1767943f9974c493c37c7f7aad30db8eac5dfd93f7d77</string>
+				<string>3a6077185f578d8ce2ebab7a995b7ad7ff7d4abf2151e81643135a5b944b7f45</string>
 			</dict>
 			<key>com.github.mlbz521.pkg.Zoom-OutlookPlugin</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2df97421a31899660482e2e8f0c3d4c3d68c11f2</string>
+				<string>41b11d8ec8f5c88b21d6c28807ddc4ece577570b</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MLBZ521-recipes/Zoom/Zoom-OutlookPlugin.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>f5f1a7115b3514e328c83f5d9fa96ea2a653b04d0af47f5bb383acfd14bc4f4e</string>
+				<string>fb0332f6563878a9c7b36dda851ef76901eb0d8ef028a4cd25c1880632b6d926</string>
 			</dict>
 		</dict>
 	</dict>

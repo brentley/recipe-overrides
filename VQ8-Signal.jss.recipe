@@ -31,32 +31,32 @@
 		<dict/>
 		<key>parent_recipes</key>
 		<dict>
-			<key>com.github.brentley.download.Signal</key>
+			<key>com.github.jaharmi.download.Signal</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<string>b28acc6a0951f1474dbc4697e4a27af9aaa7981d</string>
 				<key>path</key>
-				<string>~/git/VQ8-Recipes/Signal/Signal.download.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes/Signal/Signal.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>73e78c2db4e465fc3d6ced5275ad84bea976ae4740235b694d325cc0c656cac4</string>
+				<string>e3c736d0eb9362139e72bf8513693ecc23cb0c85a330efa82f4b7645e20ec8d0</string>
 			</dict>
-			<key>com.github.brentley.pkg.Signal</key>
+			<key>com.github.jaharmi.pkg.Signal</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<string>975abc7820d08d711e8c9514ca3462203dfa1c5c</string>
 				<key>path</key>
-				<string>~/git/VQ8-Recipes/Signal/Signal.pkg.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes/Signal/Signal.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>1fae24ecbb0a08010d073d469c25e73ba560547e68132401139806891909e244</string>
+				<string>5200226ddb5d868ec8cc82ed8f772235a857421215bfb5e21a1ff0c95bfc682c</string>
 			</dict>
 			<key>com.github.jss-recipes.jss.Signal</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1abf29783ea5566f3b160d083e96eda14b2fe5b9</string>
+				<string>ebff9c4e623a443f83ddea074aac168a149d9723</string>
 				<key>path</key>
-				<string>~/git/VQ8-Recipes/Signal/Signal.jss.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes/Signal/Signal.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>dca34650fdbcb8ca4332842c9c70aac66698bad3ca614fca959ec1a7ceab7f93</string>
+				<string>a2d462dd846316d5226c8ed199653ed3cc20edfe02e8d083e24c6fdeefc111c5</string>
 			</dict>
 		</dict>
 	</dict>

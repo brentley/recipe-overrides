@@ -66,11 +66,11 @@
 			<key>com.github.jss-recipes.jss.Firefox_EN</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1c2eda4424a70fcf5df3cc8b0ba322278462588c</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Firefox/Firefox.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>02702acf91593c6d3bc5dc3611669c6668b5dcfc875f1dc5621bb81ecf84ba36</string>
+				<string>4b83e42105e3e08f5e5d944040a86f9391b9cf1ab4a0956c5adf1dc5c639847a</string>
 			</dict>
 		</dict>
 	</dict>

@@ -38,11 +38,11 @@
 			<key>com.github.jss-recipes.jss.Atom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>213285b15e17e3a443017e281c2aff7bfbbb7804</string>
+				<string>46b6e7c6c15b35df66202467abf1fbbe6a883210</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Atom/Atom.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>b02bdc5428532b0fd0781b26e52b45089b92f66f1fecd2b77473a6985f54e483</string>
+				<string>19071eb3862e58fa4641d9d82484fde592dec01253d0a23c88d0f5ba8dbab630</string>
 			</dict>
 			<key>io.github.hjuutilainen.download.Atom</key>
 			<dict>

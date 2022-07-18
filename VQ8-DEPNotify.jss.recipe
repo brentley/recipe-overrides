@@ -36,11 +36,11 @@
 			<key>com.github.jss-recipes.jss.DEPNotify</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4a8ea99e9f44ccfcfcf7ef9dcfd45dd21759ec55</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/DEPNotify/DEPNotify.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>bc6e562a66cd2fd4d7f7f7e7050ed098ae5342a2390f1d6f3c177ebf20f481fd</string>
+				<string>7dcbe2b1ab02baa0ec4ca7e58cbfe5ad0a40b2f02c9d958766566363c8358875</string>
 			</dict>
 			<key>com.rderewianko.download.DEPNotify</key>
 			<dict>

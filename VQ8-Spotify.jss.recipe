@@ -66,11 +66,11 @@
 			<key>com.github.jss-recipes.jss.Spotify</key>
 			<dict>
 				<key>git_hash</key>
-				<string>656f68cc3187b9a27403eb3e33ed3a7457703872</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Spotify/Spotify.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>6714b086a1530a3ce20e2bf7bf11a6b364a2826c944c43332dfa76ba3affd0e6</string>
+				<string>fd84f90011916f6dc8fbd890ec241defe87b8d74007fe079e7d6133658a2389c</string>
 			</dict>
 		</dict>
 	</dict>

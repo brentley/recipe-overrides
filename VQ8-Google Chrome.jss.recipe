@@ -54,11 +54,11 @@
 			<key>com.github.jss-recipes.jss.GoogleChrome</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1c2eda4424a70fcf5df3cc8b0ba322278462588c</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Google Chrome/Google Chrome.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>65f8ba837df5572f778c42fa23099463559220e27b247456c7e70a6fb1264041</string>
+				<string>0f26926b894bf970444d6f75149a690d7dbb90b8541972720b9bc8138f28390a</string>
 			</dict>
 		</dict>
 	</dict>

@@ -58,11 +58,11 @@
 			<key>com.github.jss-recipes.jss.Zoom</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ece2726095845c42dde3f34072b61563a899f3a1</string>
+				<string>ae77ebdeb3f6663e1fd79b165ed85e48a4deec06</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Zoom/Zoom.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>07936790abd947544e082f54a0ca50b5499c7166a6fe8f16505ab99e4495c4ba</string>
+				<string>8ca6f6b77fd29b81c5a112fd0cb9860712ba6f3956b6ee840e23c31382903570</string>
 			</dict>
 		</dict>
 	</dict>

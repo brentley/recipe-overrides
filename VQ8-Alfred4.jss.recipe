@@ -38,11 +38,11 @@
 			<key>AlfredURLProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e25f33ac0fb7b7113642afa9a33df6332774d7ec</string>
+				<string>7bee858f9d9036741364f23e22d372dbb32d5cda</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/AlfredURLProvider.py</string>
 				<key>sha256_hash</key>
-				<string>a1a07304f0bb796bb7c0180a2c6e430aa1c4dee0617a3965265a8b7abe18a5cf</string>
+				<string>af8ecd93e1b4cb9b259ee83c2c799d032f77c364a6d1525b823f7962d061e345</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

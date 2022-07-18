@@ -62,11 +62,11 @@
 			<key>com.github.jss-recipes.jss.Skype</key>
 			<dict>
 				<key>git_hash</key>
-				<string>71fbf46f400a1e26c6a27c3bbda324ac675c229f</string>
+				<string>46b6e7c6c15b35df66202467abf1fbbe6a883210</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Skype/Skype.jss.recipe</string>
 				<key>sha256_hash</key>
-				<string>9658cad8944529688a29fa8b08bdd497ccd5fd4135a01ebdff2d2ae536e99736</string>
+				<string>2fcebe8a3330d09f6a566154e1d46b4fa854a973083bb5347b8448e4efeeee9e</string>
 			</dict>
 		</dict>
 	</dict>
